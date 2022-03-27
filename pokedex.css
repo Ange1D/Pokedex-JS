@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+
+
+body {
+    background: #DEDEDE;
+
+}
+
+* {
+    font-family: 'Press Start 2P', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.pokedex {
+    background: #DD1638;
+    width: 25em;
+    height: auto;
+    margin: 50px auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    display: block;
+    padding-bottom: 260px;
+
+}
+
+h1 {
+    display: block;
+    margin: 25px 0;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.poke-img {
+    display: block;
+    border: 1em solid #ccc;
+    height: 16em;
+    width: 16em;
+    border-radius: 25px;
+    background: white;
+    margin: 0 auto;
+}
+
+img {
+    width: 15em;
+    padding-right:1em;
+}
+
+h3 {
+    display: block;
+    margin: 25px 0;
+    text-align: center;
+    font-size: 2em;
+
+
+}
+
+form {
+    text-align: center;
+}
+
+
+
+input {
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #DEDEDE;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    margin: 25px auto;
+
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px;
+    color: white;
+    background: #26A4F2;
+    cursor: pointer;
+    border-radius: 25px;
+
+
+}
+
+.big-light {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid black;
+    margin-left: 16px;
+    background-color: #5fc4f7;
+  }
+
+  .lights-container {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 200px;
+    height: 5%;
+    display: flex;
+    align-self: start;
+    justify-content: space-around;
+  }
+  
+  .small-light {
+    border: solid black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+
+
+.stats
+	{
+		height: 300px;
+        overflow:auto;
+        overflow-x: hidden;
+		width: 350px;
+		padding: 10px;
+		background-color: #5fe444;
+		z-index: 1;
+		font-size: 13px;
+
+		position: relative;
+		top: 10px;
+		left: 25px;
+
+		border-radius: 15px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		-o-border-radius: 15px;
+
+		box-shadow: 0 0 20px #003300 inset;
+		-webkit-box-shadow: 0 0 20px #003300 inset;
+		-moz-box-shadow: 0 0 20px #003300 inset;
+		-o-box-shadow: 0 0 20px #003300 inset;
+	}
+
+    article {
+        float: left;
+        width: 23%;
+        height: 100px;
+        background: #5fc4f7;
+        margin: 10px 1%;
+        padding: 1%;
+        border-radius: 10%;
+      }
